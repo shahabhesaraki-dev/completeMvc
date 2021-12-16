@@ -2,7 +2,8 @@
 session_start();
 include ("App/Models/DB.php");
 global $db;
-$db=new \App\Models\DB("localhost","root","","w84php_news");
+// create a database and replace the name with db_name//
+$db=new \App\Models\DB("localhost","root","","XYZ");
 
 include ("App/functions.php");
 include ("routes.php");
